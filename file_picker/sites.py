@@ -1,11 +1,12 @@
+import json
+
 from django.db import models
 from django.db.models.base import ModelBase, FieldDoesNotExist
 from django.core.urlresolvers import reverse, NoReverseMatch
 from django.http import HttpResponse
-from django.utils import simplejson as json
+
 
 import file_picker
-
 
 class FilePickerSite(object):
 
